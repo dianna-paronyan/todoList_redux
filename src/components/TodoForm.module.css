@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+}
+
+.content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+
+.inputAdd{
+    width: 230px;
+    height: 43px;
+    padding:  10px 15px;
+    outline: none;
+    border: none;
+    background-color: #fff5f5;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 14.5px;
+    color: rgb(65, 65, 65);
+}
+.btnAdd{
+    width: 50px;
+    height: 43px;
+    background-color: #fff0c3;
+    color: rgb(112, 110, 110);
+    border: none;
+    font-size: 14px;
+}
+.btnAdd:hover{
+    cursor: pointer;
+}

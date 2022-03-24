@@ -1,39 +1,41 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
+body{
+  height: 90vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-color: #FFE9AD;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.todoBox{
+    padding: 50px 35px;
+    background-image: url('https://us.123rf.com/450wm/pro100vector/pro100vector1802/pro100vector180200153/96276872-geometric-abstract-background-with-hexagon-molecule-.jpg?ver=6');
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    text-align: center;
+    color: rgb(39, 38, 38);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    background-color: #fdf1ce;
+    margin-bottom: 10px;
+    padding: 10px 17px;
+    border-bottom-right-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
 }
