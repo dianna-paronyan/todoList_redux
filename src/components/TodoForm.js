@@ -26,7 +26,7 @@ function TodoForm() {
                 setInputValue('');
                 }}>
 
-                <input placeholder='add todo...' className={styles.inputAdd} type='text' 
+                <input placeholder='add tasks...' className={styles.inputAdd} type='text' 
                     onChange={(e)=> setInputValue(e.target.value)}
                     value={inputValue}
                 />
