@@ -1,2 +1,2 @@
 # todoList_redux
-The app is a todo list, which created with redux toolkit
+The app is a todo list, which is created with redux toolkit
